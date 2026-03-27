@@ -30,6 +30,15 @@ Se evaluaron modelos de Regresión Lineal y Random Forest Regressor mediante val
 * **Visualización:** Matplotlib y Seaborn
 * **Matemáticas:** Cálculo de métricas personalizadas (sMAPE)
 
+* graph TD
+    A[Mineral Bruto - Feed] --> B{Flotación Rougher}
+    B -->|Concentrado| C[Limpieza Primaria]
+    B -->|Colas| D[Residuos]
+    C --> E[Limpieza Final]
+    E --> F((Oro Purificado))
+    C -->|Colas| D
+    E -->|Colas| D
+
 ## 💡 Conclusiones Técnicas
 El modelo permite a los ingenieros de planta anticipar caídas en la eficiencia y ajustar parámetros de control antes de que ocurran pérdidas económicas. La limpieza de datos orientada al negocio (remoción de ceros por fallos de sensores) fue el factor determinante para la estabilidad de las predicciones.
 
