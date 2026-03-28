@@ -35,6 +35,10 @@ Se evaluaron modelos de Regresión Lineal y Random Forest Regressor mediante val
 * **Modelo Seleccionado:** Random Forest Regressor.
 * **Resultado Final:** sMAPE en el conjunto de prueba de **12.56%**.
 
+![Graficos 1](images/Concentracion de metales en diferentes etapas.png)
+![Graficos 2](images/Distribucion de la concentracion total de sustancias.png)
+![Graficos 3](images/Distribucion del tamaño de las particulas de la alimentacion.png)
+
 ## 🛠️ Herramientas Utilizadas
 * **Python** (Pandas, NumPy, Scikit-learn)
 * **Visualización:** Matplotlib y Seaborn
