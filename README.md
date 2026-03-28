@@ -1,5 +1,8 @@
 # 🚀 Optimización de Recuperación de Oro - Zyfra
 ![Diagrama del Proceso de Purificación](images/diagrama_proceso.png.png)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 
 Este proyecto desarrolla un modelo de **Machine Learning** para predecir la recuperación de oro a partir del mineral bruto. El objetivo es optimizar el proceso de purificación multietapa (flotación y limpieza) para la empresa Zyfra, permitiendo identificar parámetros de operación no rentables en tiempo real.
 
